@@ -1,0 +1,32 @@
+/* src/App.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensa el navbar fijo al hacer scroll a una sección con anclas */
+section[id] {
+  scroll-margin-top: 60px;
+}
+
+.carousel-item img {
+  filter: brightness(0.85);
+}
+
+/* Al imprimir el recibo, ocultamos todo lo demás y solo mostramos el recibo */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #areaRecibo,
+  #areaRecibo * {
+    visibility: visible;
+  }
+  #areaRecibo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+}
