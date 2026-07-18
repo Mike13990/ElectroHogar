@@ -1,29 +1,19 @@
-html {
-  scroll-behavior: smooth;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
 }
 
-/* Compensa el navbar fijo al hacer scroll a una sección con anclas */
-section[id] {
-  scroll-margin-top: 60px;
-}
-
-.carousel-item img {
-  filter: brightness(0.85);
-}
-
-@media print {
-  body * {
-    visibility: hidden;
-  }
-  #areaRecibo,
-  #areaRecibo * {
-    visibility: visible;
-  }
-  #areaRecibo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-  }
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  background-color: #f8f9fa;
 }

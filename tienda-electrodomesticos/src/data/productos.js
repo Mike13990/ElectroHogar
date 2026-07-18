@@ -11,7 +11,7 @@ export const lavadoras = [
     modelo: "WTW1855",
     descripcion: "Lavadora de carga superior con 8 ciclos de lavado y tina de acero inoxidable.",
     precio: 549.99,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPSEuwZqwUuF2PXu0iAAAt2ARVJ2nde5PogP7rGqyig&s",
+    imagen: "https://whirlpoolco.vtexassets.com/arquivos/ids/156165/8MWTW1844WMG_00.png?v=638253210867000000",
   },
   {
     id: "lav-02",
@@ -20,7 +20,7 @@ export const lavadoras = [
     modelo: "LGF20WD",
     descripcion: "Tecnología de vapor e inverter direct drive para mayor eficiencia energética.",
     precio: 699.5,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
+    imagen: "https://www.lg.com/content/dam/channel/wcms/co/images/lavadoras-y-secadoras/wm20vv26w_assecol_escb_co_c/gallery/LG-WM-WM20VV26W-1600-02.jpg?w=800",
   },
   {
     id: "lav-03",
@@ -29,7 +29,7 @@ export const lavadoras = [
     modelo: "SAM16AT",
     descripcion: "Sistema Eco Bubble que disuelve el detergente antes del lavado para mayor limpieza.",
     precio: 629.0,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgnl8bnSuzdSKJTHYefzBTuRpfoiYdT-jQ0kwNdGB9g&s",
+    imagen: "https://www.innova.ec/wp-content/uploads/2023/07/IN_LAV16AUTO_MI.png",
   },
   {
     id: "lav-04",
@@ -38,7 +38,7 @@ export const lavadoras = [
     modelo: "MAB14DG",
     descripcion: "Panel digital, 10 programas de lavado y función de agua caliente.",
     precio: 469.99,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPSEuwZqwUuF2PXu0iAAAt2ARVJ2nde5PogP7rGqyig&s",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_wiLGNKhJVx1jJZlDMMGe-pqEPHWA8EgXhkCJ6OxLHG6qIKEEQ8OwX18&s=10",
   },
   {
     id: "lav-05",
@@ -77,7 +77,7 @@ export const refrigeradores = [
     modelo: "LGSS26",
     descripcion: "Pantalla digital externa, filtro de agua y congelador de gran capacidad.",
     precio: 1499.0,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgnl8bnSuzdSKJTHYefzBTuRpfoiYdT-jQ0kwNdGB9g&s",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKefo8HtiVE2sV6pThK2IWUWjPhEVotrP1PbqqQJ4-HA&s=10",
   },
   {
     id: "ref-04",
@@ -86,7 +86,7 @@ export const refrigeradores = [
     modelo: "MABBF20",
     descripcion: "Congelador inferior, luz LED interior y control de temperatura digital.",
     precio: 899.5,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS--c4g2HGH2UDfbpPg8Go0QvJu9BvYQig6ijsaAf9ldPYDfAwNQwp4fLFt&s=10",
   },
   {
     id: "ref-05",
@@ -95,7 +95,7 @@ export const refrigeradores = [
     modelo: "ELXC10",
     descripcion: "Ideal para espacios reducidos, bajo consumo eléctrico y diseño moderno.",
     precio: 549.0,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
+    imagen: "https://http2.mlstatic.com/D_Q_NP_2X_748970-MEC92266129830_092025-T.webp",
   },
 ];
 

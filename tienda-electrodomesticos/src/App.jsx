@@ -1,57 +1,58 @@
-// src/App.jsx
-import { useState } from "react";
-import NavBar from "./components/NavBar";
-import Inicio from "./components/Inicio";
-import Lavadoras from "./components/Lavadoras";
-import Refrigeradores from "./components/Refrigeradores";
-import Estufas from "./components/Estufas";
-import Carrito from "./components/Carrito";
-import Footer from "./components/Footer";
-import "./App.css";
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Lavadoras from './components/Lavadoras';
+import Refrigeradores from './components/Refrigeradores';
+import Estufas from './components/Estufas';
+import Carrito from './components/Carrito';
+import Footer from './components/Footer';
 
 function App() {
-  const [carrito, setCarrito] = useState([]);
-
-  const agregarAlCarrito = (producto) => {
-    setCarrito((carritoActual) => [...carritoActual, producto]);
+  const [cartItems, setCartItems] = useState([]);
+  const [showCart, setShowCart] = useState(false);
+  const [currentSection, setCurrentSection] = useState('inicio');
+  const addToCart = (producto) => {
+    setCartItems(prev => [...prev, producto]);
   };
 
-  const eliminarDelCarrito = (index) => {
-    setCarrito((carritoActual) => carritoActual.filter((_, i) => i !== index));
+  const removeFromCart = (id) => {
+    setCartItems(prev => prev.filter(item => item.id !== id));
   };
 
-  const vaciarCarrito = () => {
-    setCarrito([]);
+  const clearCart = () => {
+    setCartItems([]);
   };
 
-  const abrirCarrito = () => {
-    const offcanvasEl = document.getElementById("offcanvasCarrito");
-    if (offcanvasEl && window.bootstrap) {
-      const offcanvas = new window.bootstrap.Offcanvas(offcanvasEl);
-      offcanvas.show();
-    }
+  const toggleCart = () => {
+    setShowCart(!showCart);
   };
 
   return (
-    <div className="d-flex flex-column min-vh-100">
-      <NavBar totalCarrito={carrito.length} abrirCarrito={abrirCarrito} />
-
-      {/* Espaciado para compensar el navbar fixed-top */}
-      <div style={{ paddingTop: "56px" }}>
-        <Inicio />
-        <Lavadoras agregarAlCarrito={agregarAlCarrito} />
-        <Refrigeradores agregarAlCarrito={agregarAlCarrito} />
-        <Estufas agregarAlCarrito={agregarAlCarrito} />
-      </div>
+    <>
+      <Navbar 
+        toggleCart={toggleCart} 
+        onNavigate={setCurrentSection} 
+        activeSection={currentSection} 
+        cartItems={cartItems}
+      />
+      
+      <main>
+        {currentSection === 'inicio' && <Home addToCart={addToCart} />}
+        {currentSection === 'lavadoras' && <Lavadoras addToCart={addToCart} />}
+        {currentSection === 'refrigeradores' && <Refrigeradores addToCart={addToCart} />}
+        {currentSection === 'estufas' && <Estufas addToCart={addToCart} />}
+      </main>
 
       <Footer />
-
-      <Carrito
-        carrito={carrito}
-        eliminarDelCarrito={eliminarDelCarrito}
-        vaciarCarrito={vaciarCarrito}
+      
+      <Carrito 
+        show={showCart} 
+        handleClose={() => setShowCart(false)} 
+        cartItems={cartItems} 
+        removeFromCart={removeFromCart} 
+        clearCart={clearCart}
       />
-    </div>
+    </>
   );
 }
 
