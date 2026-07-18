@@ -1,5 +1,3 @@
-/* src/App.css */
-
 html {
   scroll-behavior: smooth;
 }
@@ -13,7 +11,6 @@ section[id] {
   filter: brightness(0.85);
 }
 
-/* Al imprimir el recibo, ocultamos todo lo demás y solo mostramos el recibo */
 @media print {
   body * {
     visibility: hidden;

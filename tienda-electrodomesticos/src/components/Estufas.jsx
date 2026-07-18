@@ -22,7 +22,7 @@ function Estufas({ agregarAlCarrito }) {
                   </h6>
                   <p className="card-text">{producto.descripcion}</p>
                   <p className="fw-bold text-success mt-auto">
-                    ${producto.precio.toFixed(2)}
+                    Q{producto.precio.toFixed(2)}
                   </p>
                   <button
                     className="btn btn-danger w-100"

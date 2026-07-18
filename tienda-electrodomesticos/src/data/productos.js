@@ -11,7 +11,7 @@ export const lavadoras = [
     modelo: "WTW1855",
     descripcion: "Lavadora de carga superior con 8 ciclos de lavado y tina de acero inoxidable.",
     precio: 549.99,
-    imagen: "https://placehold.co/400x300/0d6efd/ffffff?text=Lavadora+Whirlpool",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPSEuwZqwUuF2PXu0iAAAt2ARVJ2nde5PogP7rGqyig&s",
   },
   {
     id: "lav-02",
@@ -20,7 +20,7 @@ export const lavadoras = [
     modelo: "LGF20WD",
     descripcion: "Tecnología de vapor e inverter direct drive para mayor eficiencia energética.",
     precio: 699.5,
-    imagen: "https://placehold.co/400x300/0d6efd/ffffff?text=Lavadora+LG",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
   },
   {
     id: "lav-03",
@@ -29,7 +29,7 @@ export const lavadoras = [
     modelo: "SAM16AT",
     descripcion: "Sistema Eco Bubble que disuelve el detergente antes del lavado para mayor limpieza.",
     precio: 629.0,
-    imagen: "https://placehold.co/400x300/0d6efd/ffffff?text=Lavadora+Samsung",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgnl8bnSuzdSKJTHYefzBTuRpfoiYdT-jQ0kwNdGB9g&s",
   },
   {
     id: "lav-04",
@@ -38,7 +38,7 @@ export const lavadoras = [
     modelo: "MAB14DG",
     descripcion: "Panel digital, 10 programas de lavado y función de agua caliente.",
     precio: 469.99,
-    imagen: "https://placehold.co/400x300/0d6efd/ffffff?text=Lavadora+Mabe",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPSEuwZqwUuF2PXu0iAAAt2ARVJ2nde5PogP7rGqyig&s",
   },
   {
     id: "lav-05",
@@ -47,7 +47,7 @@ export const lavadoras = [
     modelo: "ELX22CS",
     descripcion: "Gran capacidad, ideal para familias numerosas, con tecnología anti-vibración.",
     precio: 589.0,
-    imagen: "https://placehold.co/400x300/0d6efd/ffffff?text=Lavadora+Electrolux",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPSEuwZqwUuF2PXu0iAAAt2ARVJ2nde5PogP7rGqyig&s",
   },
 ];
 
@@ -59,7 +59,7 @@ export const refrigeradores = [
     modelo: "RF25FD",
     descripcion: "Dispensador de agua y hielo, tecnología Twin Cooling Plus.",
     precio: 1299.0,
-    imagen: "https://placehold.co/400x300/198754/ffffff?text=Refrigerador+Samsung",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgnl8bnSuzdSKJTHYefzBTuRpfoiYdT-jQ0kwNdGB9g&s",
   },
   {
     id: "ref-02",
@@ -68,7 +68,7 @@ export const refrigeradores = [
     modelo: "WTM18TM",
     descripcion: "Diseño clásico, eficiente en consumo energético y con anaqueles ajustables.",
     precio: 799.99,
-    imagen: "https://placehold.co/400x300/198754/ffffff?text=Refrigerador+Whirlpool",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
   },
   {
     id: "ref-03",
@@ -77,7 +77,7 @@ export const refrigeradores = [
     modelo: "LGSS26",
     descripcion: "Pantalla digital externa, filtro de agua y congelador de gran capacidad.",
     precio: 1499.0,
-    imagen: "https://placehold.co/400x300/198754/ffffff?text=Refrigerador+LG",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgnl8bnSuzdSKJTHYefzBTuRpfoiYdT-jQ0kwNdGB9g&s",
   },
   {
     id: "ref-04",
@@ -86,7 +86,7 @@ export const refrigeradores = [
     modelo: "MABBF20",
     descripcion: "Congelador inferior, luz LED interior y control de temperatura digital.",
     precio: 899.5,
-    imagen: "https://placehold.co/400x300/198754/ffffff?text=Refrigerador+Mabe",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
   },
   {
     id: "ref-05",
@@ -95,7 +95,7 @@ export const refrigeradores = [
     modelo: "ELXC10",
     descripcion: "Ideal para espacios reducidos, bajo consumo eléctrico y diseño moderno.",
     precio: 549.0,
-    imagen: "https://placehold.co/400x300/198754/ffffff?text=Refrigerador+Electrolux",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWbNKJwVvfHe_VG4gJP-QisS3Ck3xJ0bogEiS4fmQU_QMuyhK5CwK2BTI&s=10",
   },
 ];
 
@@ -107,7 +107,7 @@ export const estufas = [
     modelo: "MAB4Q",
     descripcion: "Quemadores de alta y baja potencia, horno con encendido automático.",
     precio: 399.0,
-    imagen: "https://placehold.co/400x300/dc3545/ffffff?text=Estufa+Mabe",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEpfGswEg8TERx23ZsVuI_ghDW6hJdznNfEJGWtHOZ90z6rpN2mKe64A&s=10",
   },
   {
     id: "est-02",
@@ -116,7 +116,7 @@ export const estufas = [
     modelo: "SAMIND30",
     descripcion: "Cocción por inducción, panel táctil y bloqueo de seguridad para niños.",
     precio: 899.99,
-    imagen: "https://placehold.co/400x300/dc3545/ffffff?text=Estufa+Samsung",
+    imagen: "https://images-na.ssl-images-amazon.com/images/I/41ly+xPBz0L._AC_UL495_SR435,495_.jpg",
   },
   {
     id: "est-03",
@@ -125,7 +125,7 @@ export const estufas = [
     modelo: "WTF5Q",
     descripcion: "Parrillas de hierro fundido y horno de convección para cocción uniforme.",
     precio: 649.5,
-    imagen: "https://placehold.co/400x300/dc3545/ffffff?text=Estufa+Whirlpool",
+    imagen: "https://ss636.liverpool.com.mx/xl/1087813912.jpg",
   },
   {
     id: "est-04",
@@ -134,7 +134,7 @@ export const estufas = [
     modelo: "LGEMP24",
     descripcion: "Diseño compacto para cocinas pequeñas, con temporizador digital.",
     precio: 459.0,
-    imagen: "https://placehold.co/400x300/dc3545/ffffff?text=Estufa+LG",
+    imagen: "https://http2.mlstatic.com/D_696747-MLA111714908837_052026-C.jpg",
   },
   {
     id: "est-05",
@@ -143,7 +143,7 @@ export const estufas = [
     modelo: "ELXDH36",
     descripcion: "Dos hornos independientes, ideal para cocinar varios platillos a la vez.",
     precio: 1099.0,
-    imagen: "https://placehold.co/400x300/dc3545/ffffff?text=Estufa+Electrolux",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSghl1fcN2gvZhEwnUrI9LitFLuGGOqKrd--6P05y3Qg&s=10",
   },
 ];
 
